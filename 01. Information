@@ -1,0 +1,11 @@
+#Whois
+$ whois [domain]					#Return information on the domain
+
+#Nslookup
+$ nslookup [domain]					#Query internet name servers
+
+#host
+$ host [server]						#Domain name and IP address conversion
+$ host -t ns [server]					#Retrieve name servers for this domain
+$ host -t axfr -l [domain] [nameserver]			#Retrieve zone transfer for domain
+
