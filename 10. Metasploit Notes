@@ -1,0 +1,4 @@
+$ msfconsole						# Launch Metasploit console from command line
+> help							# Get help
+> help [command]					# Get help for specific command
+> use [OPTIONS]						# Use exploit
